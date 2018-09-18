@@ -1,0 +1,369 @@
+{% extends "_layouts/ga2018" %}
+
+{% block content %}
+
+  <main id="barba-wrapper">
+    <div class="page-load-content ga-page-content barba-container" data-prev="mission">
+
+      <!--<div class="banner m-banner blue-light-box">
+        <div class="text">
+          <span>Get the latest updates <a href="#" class="open-promo stressed-link">See Details</a></span>
+        </div>
+      </div>-->
+
+      <!-- Navigation -->
+      <nav class="navigation">
+
+        <!--<div class="banner blue-light-box">
+          <div class="text">
+            <span>Get the latest updates <a href="#" class="open-promo stressed-link">See Details</a></span>
+          </div>
+        </div>-->
+
+        <div class="nav-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+
+                <button class="hamburger-menu close">
+                  <span></span>
+                </button>
+
+                <div class="menu">
+                  <ul>
+                    <li><a class="mission-link" href="/mission">Mission</a></li>
+                    <li><a class="ga-link" href="/ga">GA 2018</a></li>
+                  </ul>
+                </div>
+
+                <!-- Mobile hidden form -->
+                <div class="mobile-contact-form">
+                  <div class="mobile-form text-center">
+
+                    <div class="bottom-offset">
+                      <h3 class="section-title bottom-xs-offset">Contact Us</h3>
+                      <span>Fill out the Contact Us form below</span>
+                    </div>
+
+                    <form class="js-mobile-form" data-url="/">
+                      {{ getCsrfInput() }}
+
+                      <input type="hidden" name="action" value="amForms/submissions/saveSubmission">
+                      <input type="hidden" name="handle" value="ga2018Contact">
+                      <input type="hidden" name="return" value="/2018">
+
+                      {{ craft.amForms.displayAntispam() }}
+
+                      <div class="form-group bottom-offset">
+                        <input type="text" name="fields[fullName]" data-validate-field="name" placeholder="Name *" required>
+                      </div>
+
+                      <div class="form-group bottom-offset">
+                        <input type="email" name="fields[emailAddress]" data-validate-field="email" placeholder="Email Address *" required>
+                      </div>
+
+                      <!-- <div class="form-group bottom-offset">
+                        <input type="text" name="fields[interestedInText]" data-validate-field="text" placeholder="I am interested in...*" required>
+                      </div> -->
+
+                      <div class="form-group bottom-offset">
+                        <textarea name="fields[comment]" data-validate-field="text" placeholder="Questions or comments?*" required></textarea>
+                      </div>
+
+                      <div class="form-group">
+                        <button class="btn btn-blue" type="submit">Submit</button>
+                      </div>
+                    </form>
+
+                  </div>
+
+                  <!-- Thanks box -->
+                  <div class="thanks-box">
+                    <h3 class="modal-title">Thanks!</h3>
+                    <div class="mail">
+                      <svg><use xlink:href="#mail-svg"></use></svg>
+                    </div>
+                    <div class="text">
+                      <p>We'll be in touch soon.</p>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="blue-box">
+
+        <!-- Mobile hamburger -->
+        <button class="hamburger-menu open">
+          <span></span>
+        </button>
+
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-6 text-center">
+
+              <div class="splash-content splash-top section-offset bottom-line register_ga">
+                <img class="splash-logo" src="/assets/img/ga2018/ga-logo-yellow.svg" alt="GA logo">
+
+                <div class="text">
+                  <h2 class="section-title bottom-offset">We Need to Talk</br>
+                  <span lang="he" dir="rtl">הזדמנות של פעם ב-5 שנים</span></br>
+                  <span lang="he" dir="rtl"style="font-weight:500;font-size:1.8rem;">באוקטובר, גני התערוכה, תל אביב</span><span style="font-weight:500;font-size:1.8rem;"> 22-24</span></h2>
+
+                  <p dir="rtl" lang="he">כבר עשרות שנים אנו צועדים יחד – יהודי ישראל ויהודי צפון אמריקה שתומכים במדינת ישראל ובאזרחיה מאז הקמתה בתחומים השונים - חינוך, בריאות, רוח ורווחה.
+וכמו בכל מערכת יחסים, במיוחד כזו שחוצה יבשות וימים, יש עליות ומורדות, 
+חילוקי דעות, אי הבנות ופרשנויות שונות של המאורעות המתרחשים במציאות מורכבת.
+זו ההזדמנות שלכם להיות חלק מן החיבור המשות</p>
+                  
+                  <p>&nbsp;</p>
+                  <p dir="rtl" lang="he">
+
+We Need to Talk 
+הזדמנות של פעם ב-5 שנים
+22-24 באוקטובר, גני התערוכה, תל אביב
+כבר עשרות שנים אנו צועדים יחד – יהודי ישראל ויהודי צפון אמריקה שתומכים במדינת ישראלhk ובאזרחיה מאז הקמתה בתחומים השונים - חינוך, בריאות, רוח ורווחה.
+וכמו בכל מערכת יחסים, במיוחד כזו שחוצה יבשות וימים, יש עליות ומורדות, 
+חילוקי דעות, אי הבנות ופרשנויות שונות של המאורעות המתרחשים במציאות מורכבת.
+זו ההזדמנות שלכם להיות חלק מן החיבור המשותף: 
+לשמוע ולהשמיע, ללמוד וללמד, 
+לשמור את הקיים ולעשות טוב. 
+לדבר על האתגרים, הנושאים הבוערים והחלומות המשותפים
+ לשתי הקהילות היהודיות הגדולות בעולם.
+יחד, נגשר על הפערים ונעצב קהילה יהודית חזקה, מאוחדת וחוצת גבולות.
+ב-22-24 באוקטובר 2018, הכינוס השנתי של מנהיגי הפדרציות היהודיות מצפון אמריקהיתקיים בתל אביב - ואתם מוזמנים להשתתף.
+הכנס מתקיים בשפה האנגלית
+
+
+
+
+</p>
+<p>&nbsp;</p>
+                  <p dir="rtl" lang="he">
+                  
+                 
+
+                  
+                  </p>
+                  <p lang="he"></p>
+                 </div>
+
+                 <a href="http://www.wynjade.com/jewishfederations18/ga" class="ga-link btn btn-white" target="_blank" style="margin-top:40px;">Register for GA 2018</a>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12 col-md-6">
+
+              <div class="content-box">
+                <div class="text">
+                  <img class="content-image" src="/assets/img/ga2018/ga-image-1.png" alt="">
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-xs-12 col-md-6">
+
+              <div class="content-box">
+
+                <div class="text">
+                  <h2 class="section-sub-title bottom-offset">The GA takes on Tel Aviv!</h2>
+
+                  <p>Israel’s seaside metropolis and vibrant cultural and economic capital is the host city for GA 2018. We’ll start at Tel Aviv’s state-of-the-art convention center. But don’t expect to spend too much time inside, because this GA is a moveable feast of conversations and experiences.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12 col-md-6 order-md-2">
+
+              <div class="content-box">
+                <div class="text">
+                  <img class="content-image" src="/assets/img/ga2018/ga-image-2.png" alt="">
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-xs-12 col-md-6 order-md-1">
+
+              <div class="content-box">
+
+                <div class="text">
+                  <h2 class="section-sub-title bottom-offset">We didn’t forget Jerusalem.</h2>
+
+                  <p>What is a GA without a visit to Israel’s capital city? But we’re not there as tourists. In 2018 we will venture to the Knesset to meet with Israeli leaders and discuss the most compelling issues facing the Diaspora–Israel relationship.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="row bottom-line">
+            <div class="col-xs-12 col-md-6">
+
+              <div class="content-box">
+                <div class="text">
+                  <img class="content-image" src="/assets/img/ga2018/ga-image-3.png" alt="">
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-xs-12 col-md-6">
+
+              <div class="content-box">
+
+                <div class="text">
+                  <h2 class="section-sub-title bottom-offset">See You in Tel Aviv.</h2>
+
+                  <p>GA 2018 kicks off at 9 AM on Monday, October 22 and ends at 12:30 PM on Wednesday, October 24. Make sure to stay Informed on pre and post events.</p>
+                  <p>&nbsp;</p>
+                  <p>The cost of the GA is $499.<br/> The cost of the GA when coming with a local mission is $399.</p>
+                  <p>&nbsp;</p>
+                  <p>If you’re coming just for the GA, we’ve reserved rooms at the Hilton Tel Aviv, The Tal,  Dan Tel Aviv, The Royal Beach, & The Intercontinental. All near the beach, all centrally located near HaYarkon.</p>
+                  <p>&nbsp;</p>
+                  <p> To book your hotel using our rate, you need to first register for the GA. <a href="https://ga2018.wyndhamjade.com/ga2018/index.html" style="text-decoration: underline;
+    font-size: 16px;" target="_blank">Click here to register now</a>.</p>
+
+                 
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-8 text-center">
+
+              <div class="splash-content section-offset splash-bottom">
+                <img class="mission-logo" src="/assets/img/ga2018/mission-logo.svg" alt="GA Mission logo">
+
+                <div class="text">
+                  <h2 class="section-title bottom-offset">
+                    Also scope out the Israel <br> 70th Anniversary Mission!
+                  </h2>
+
+                  <p>This landmark Federation journey enables you to meet the people, speak with newsmakers and experience Israel and the work we do there in totally unique ways.</p>
+
+                  <a href="/mission" class="mission-link btn btn-white">Let's go</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Contact form -->
+      <section class="contact-section section-offset blue-light-box d-none d-md-block">
+        <button type="button" class="sticky-contact-btn btn btn-blue-light">Contact Us</button>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="contact-form text-center">
+
+                <div class="white-text bottom-lg-offset">
+                  <h3 class="section-title bottom-offset">Contact Us</h3>
+                  <span>Fill out the Contact Us form below</span>
+                </div>
+
+                {% include "_includes/forms/ga2018Contact" %}
+              </div>
+
+              <!-- Thanks box -->
+              <div class="thanks-box">
+                <h3 class="modal-title">Thanks!</h3>
+                <div class="mail">
+                  <svg><use xlink:href="#mail-svg"></use></svg>
+                </div>
+                <div class="text">
+                  <p>We'll be in touch soon.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="blue-box">
+        <div class="container">
+          <div class="row align-items-center">
+
+            <div class="col-12 col-md-6 order-md-1">
+
+              <div class="subscribe-form footer-form">
+                <p class="white-text bottom-xs-offset thanks-text">Subscribe to our newsletter</p>
+
+                <div class="form-group text-left bottom-sm-offset">
+                  <form method="POST" class="js-form js-footer-form" data-url="/">
+                    {{ getCsrfInput() }}
+
+                    <input type="hidden" name="action" value="amForms/submissions/saveSubmission">
+                    <input type="hidden" name="handle" value="ga2018">
+                    <input type="hidden" name="return" value="/2018">
+
+                    {{ craft.amForms.displayAntispam() }}
+
+                    <div class="form-group input-wrap">
+                      <input type="email" data-validate-field="email" name="fields[emailAddress]" placeholder="name@email.com" required>
+                    </div>
+
+                    <button class="s" type="submit">
+                      <svg><use xlink:href="#arrow-right-svg"></use></svg>
+                    </button>
+                  </form>
+
+                </div>
+
+                <span class="tangaroa-text">By entering your email, you agree to the <a href="#" class="open-terms stressed-link">Terms of Use.</a></span>
+                <span class="tangaroa-text"><a href="#" class="open-privacy stressed-link">Privacy Policy</a></span>
+              </div>
+
+            </div>
+
+            <div class="col-12 col-md-6">
+
+              <div class="d-flex footer-logo-container align-items-center">
+                <a href="http://jfna.org" target="_blank" class="logo">
+                  <img src="/assets/img/ga2018/jfna-logo.svg" alt="">
+                </a>
+
+                <div class="socials">
+                  <a href="https://www.facebook.com/jfederations" target="_new">
+                    <svg><use xlink:href="#facebook-svg"></use></svg>
+                  </a>
+
+                  <a href="https://twitter.com/jfederations" target="_new">
+                    <svg><use xlink:href="#twitter-svg"></use></svg>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </footer> <!-- End Footer -->
+
+      {# {% include "_includes/lp-modal" %} #}
+
+    </div>
+  </main>
+
+{% endblock %}
